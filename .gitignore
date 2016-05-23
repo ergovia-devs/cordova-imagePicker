@@ -12,3 +12,8 @@
 xcuserdata/
 project.xcworkspace/
 tags
+.idea/cordova-imagePicker.iml
+.idea/modules.xml
+.idea/sonarIssues.xml
+.idea/vcs.xml
+.idea/workspace.xml
