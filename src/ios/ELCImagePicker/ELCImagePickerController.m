@@ -49,7 +49,7 @@
 {
     BOOL shouldSelect = previousCount < self.maximumImagesCount;
     if (!shouldSelect) {
-        NSString *title = [NSString stringWithFormat:NSLocalizedString(@"Maximal %d fotos.", nil), self.maximumImagesCount];
+        NSString *title = [NSString stringWithFormat:NSLocalizedString(@"Maximal %d Fotos.", nil), self.maximumImagesCount];
         NSString *message = [NSString stringWithFormat:NSLocalizedString(@"Sie können nur %d Fotos auswählen.", nil), self.maximumImagesCount];
         [[[UIAlertView alloc] initWithTitle:title
                                     message:message
